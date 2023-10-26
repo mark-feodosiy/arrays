@@ -55,12 +55,13 @@ public class Main {
         System.out.println();
         // Задача № 4
         {
-            int[] arr = new int[]{1, 2, 3, 4, 5, 6};
-            for (int i = 0, j = arr [i]; i <= arr.length - 1; i++) {
-                if (i % 2 != 0) {
-                    j = j+1;
-                    System.out.print(j + " ");
-                }
+            int[] arr = new int[]{1, 2, 3};
+            for (int i = 0; i <= arr.length - 1; i++) {
+
+                if (arr [i] % 2 != 0) {
+                    arr [i]++;
+                    }
+                System.out.print(arr[i] + " ");
 
             }
         }
