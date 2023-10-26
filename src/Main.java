@@ -17,14 +17,24 @@ public class Main {
         // Задача № 2
         {
             int [] arr = new int [] {1, 2, 3};
-            System.out.println(Arrays.toString(arr));
+            for (int i = 0; i <= arr.length - 1; i++) {
+                System.out.print(arr[i] + " ");
+            }
+            System.out.println();
             double [] doubleArr = new double[] {1.57, 7.654, 9.986};
-            System.out.println(Arrays.toString(doubleArr));
+            for (int i = 0; i <= doubleArr.length - 1; i++) {
+                System.out.print(doubleArr[i] + " ");
+            }
+            System.out.println();
+
             char[] chars = {'a', 'b', 'c', 'd'};
-            System.out.println(Arrays.toString(chars ));
+            for (int i = 0; i <= chars.length - 1; i++) {
+                System.out.print(chars[i] + " ");
+            }
+            System.out.println();
         }
         System.out.println();
-        // Задача № 2
+        // Задача № 3
         {
             int[] arr = new int[]{1, 2, 3};
             for (int i = arr.length - 1; i >= 0; i--) {
