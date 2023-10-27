@@ -18,18 +18,30 @@ public class Main {
         {
             int [] arr = new int [] {1, 2, 3};
             for (int i = 0; i <= arr.length - 1; i++) {
-                System.out.print(arr[i] + " ");
+                System.out.print(arr[i]);
+                if(i == arr.length - 1) {
+                    System.out.print("");
+                } else
+                    System.out.print(", ");
             }
             System.out.println();
             double [] doubleArr = new double[] {1.57, 7.654, 9.986};
             for (int i = 0; i <= doubleArr.length - 1; i++) {
-                System.out.print(doubleArr[i] + " ");
+                System.out.print(doubleArr[i]);
+                if(i == doubleArr.length - 1) {
+                    System.out.print("");
+                } else
+                    System.out.print(", ");
             }
             System.out.println();
 
             char[] chars = {'a', 'b', 'c', 'd'};
             for (int i = 0; i <= chars.length - 1; i++) {
-                System.out.print(chars[i] + " ");
+                System.out.print(chars[i]);
+                if(i == chars.length - 1) {
+                    System.out.print("");
+                } else
+                    System.out.print(", ");
             }
             System.out.println();
         }
@@ -38,17 +50,29 @@ public class Main {
         {
             int[] arr = new int[]{1, 2, 3};
             for (int i = arr.length - 1; i >= 0; i--) {
-                System.out.print(arr[i] + " ");
+                System.out.print(arr[i]);
+                if(i == 0) {
+                    System.out.print("");
+                } else
+                    System.out.print(", ");
             }
             System.out.println();
             double[] doubleArr = new double[]{1.57, 7.654, 9.986};
             for (int j = doubleArr.length - 1; j >= 0; j--) {
-                System.out.print(doubleArr[j] + " ");
+                System.out.print(doubleArr[j]);
+                if(j == 0) {
+                    System.out.print("");
+                } else
+                    System.out.print(", ");
             }
             System.out.println();
             char[] chars = {'a', 'b', 'c', 'd'};
             for (int k = chars.length - 1; k >= 0; k--) {
-                System.out.print(chars[k] + " ");
+                System.out.print(chars[k]);
+                if(k == 0) {
+                    System.out.print("");
+                } else
+                    System.out.print(", ");
             }
         }
         System.out.println();
